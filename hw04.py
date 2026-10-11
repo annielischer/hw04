@@ -78,6 +78,11 @@ def check_greater():
 # Task 3
 def get_special_numbers():
     """ Add your docstring """
+    
+    for num in range(1,41):
+        if num%2 != 0 and num%3 == 0 and num%5 != 0:
+            print(num)
+    
     pass
 
 
